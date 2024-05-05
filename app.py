@@ -54,7 +54,7 @@ async def scrapeJobDescription(url):
 async def scrapeLinkedin(jobTitle, jobLocation):
     global df
     counter = 0
-    max_jobs = 4  # Maximum number of jobs to scrape
+    max_jobs = 1  # Maximum number of jobs to scrape
 
     while counter < max_jobs:
         try:
