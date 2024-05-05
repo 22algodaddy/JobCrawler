@@ -116,5 +116,3 @@ def results():
     else:
         return render_template('result.html', table_data="No jobs scraped.")
 
-if __name__ == "__main__":
-    app.run(debug=True)
