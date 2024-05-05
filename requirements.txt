@@ -4,3 +4,4 @@ pandas
 rich
 flask
 asyncio
+Gunicorn
